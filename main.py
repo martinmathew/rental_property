@@ -28,7 +28,7 @@ def getHouseData(loc):
 
     headers = {
         "X-RapidAPI-Host": "zillow-com1.p.rapidapi.com",
-        "X-RapidAPI-Key": "9ed5bbae21mshb44deb40cacfe2bp1428ddjsn556baa76c873"
+        "X-RapidAPI-Key": "User your Own"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
@@ -49,7 +49,7 @@ def getRentalData(address, property_type):
 
     headers = {
         "X-RapidAPI-Host": "zillow-com1.p.rapidapi.com",
-        "X-RapidAPI-Key": "9ed5bbae21mshb44deb40cacfe2bp1428ddjsn556baa76c873"
+        "X-RapidAPI-Key": "User your Own"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
